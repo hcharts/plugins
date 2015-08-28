@@ -1,0 +1,2 @@
+# plugins
+Highcharts plugins
