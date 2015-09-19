@@ -1,0 +1,28 @@
+{
+  "name": "highcharts plugins",
+  "version": "0.0.1",
+  "homepage": "https://github.com/hcharts/plugins",
+  "authors": [
+    "zhy1stgg <823402333@qq.com>"
+  ],
+  "description": "Highcharts plugins collection",
+  "main": "index.html",
+  "keywords": [
+    "highcharts",
+    "plugins"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "~0.12.14",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "bootstrap": "~3.3.5"
+  }
+}

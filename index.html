@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section id="plugins-list">
+        <div class="container">
+            <div class="row plugins-header">
+                <h1>Highcharts 插件</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">插件简介</a></li>
+                        <li><a href="#">插件开发文档</a></li>
+                        <li><a href="#">Manifest 文件校验</a></li>
+                    </ul>
+                </nav>
+                <input v-model="search" lazy debounce="100" class="plugins-search" placeholder="搜索插件名称、关键词、描述">
+                <button class="plugins-search-btn btn btn-success"><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;搜索</button>
+                <p class="plugins-msg">
+                    {{msg}}
+                </p>
+            </div>
+            <div class="row plugin" v-repeat="plugins | searchFilter search">
+                <div class="col-lg-10">
+                    <h3 class="plugin-title">
+                    <a href="plugin.html?name={{name}}">{{title}}</a>
+                    </h3>
+                    <p class="plugin-description">
+                        {{description}}
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p>最新版本：{{version}}</p>
+                    <p>更新时间：{{date}}</p>
+                </div>
+            </div>
+            <div class="plugins-page">
+                <nav>
+                    <ul>
+                        <li v-repeat="i in totalPage" v-attr="class: (i+1)=== pageNum ? 'active' : ''" v-on="click: changePage(i+1)">{{i+1}}</li>
+                    </ul>
+                </nav>
+                <p class="plugins-msg">page {{pageNum}} of {{totalPage}}, pageSize
+                    <select v-model="pageSize" options="pageSizeOptions">
+                    </select>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>基于 jQuery、bootstrap、underscore、vue 构建，代码托管于 https://github.com/hcharts/plugins</p>
+            <p>Copyright &copy; 2015 HCharts.cn by John</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="bower_components/vue/dist/vue.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

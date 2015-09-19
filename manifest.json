@@ -1,0 +1,1106 @@
+[{
+  "name": "flags-grouping",
+  "version": "0.0.2",
+  "title": "Flags Grouping",
+  "author": {
+    "name": "Eugene Gluhotorenko",
+    "url": "https://github.com/gevgeny"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gevgeny/highcharts-flags-grouping/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "highstock": "2.1.7"
+  },
+  "description": "Plugin that adds possibility to group close flags",
+  "keywords": [
+    "flags",
+    "grouping"
+  ],
+  "homepage": "https://github.com/gevgeny/highcharts-flags-grouping",
+  "docs": "https://github.com/gevgeny/highcharts-flags-grouping",
+  "bugs": "https://github.com/gevgeny/highcharts-flags-grouping/issues",
+  "download": "https://raw.githubusercontent.com/gevgeny/highcharts-flags-grouping/master/flags-grouping.js",
+  "demo": [
+    "http://jsfiddle.net/gevgeny/u6rdk2u1/",
+    "http://jsfiddle.net/gevgeny/1o3ygzb3/"
+  ],
+  "maintainers": [
+    {
+      "name": "Eugene Gluhotorenko",
+      "url": "https://github.com/gevgeny",
+      "email": "e.gluhotorenko@gmail.com"
+    }
+  ]
+},{
+    "title": "Motion",
+    "name": "Motion",
+    "date": "2015-08-17",
+    "version": "1.0.6",
+    "author": {
+        "name": "Lars Cabrera",
+        "url": "https://github.com/larsac07/Motion-Highcharts-Plugin"
+    },
+    "description": "缁欏浘琛ㄥ鍔燞TML5鎾斁鍣紝璁╁浘琛ㄥ彲浠ュ洖鏀�",
+    "keywords": ["motion", "moving", "move", "timeline", "html5", "player", "play", "live", "slider"],
+    "licenses": [
+        {
+            "type": "Creative Commons Attribution-ShareAlike 4.0 International License",
+            "url": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+    ],
+    "demo": [
+        "http://jsfiddle.net/larsac07/pbezw72b/",
+	"http://jsfiddle.net/hs2ujwok/8/",
+        "http://jsfiddle.net/larsac07/z73qjhx9/",
+        "http://jsfiddle.net/larsac07/dsL25w83/",
+        "http://jsfiddle.net/larsac07/91waaLrc/",
+        "http://jsfiddle.net/24za42bn/7/"
+    ],
+    "maintainers": [
+        {
+            "name": "Lars Cabrera",
+            "email": "larsac07@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "highcharts": "4.1"
+    },
+    "type": "plugin"
+},{
+    "name": "Improved ErrorBars",
+    "version": "1.0",
+    "title": "Improved ErrorBars",
+    "author": {
+        "name": "Michael Young",
+        "url": "https://github.com/youngmd/highcharts-errorbar/"
+    },
+    "licenses": [
+        {
+            "type": "Creative Commons Attribution",
+            "url": "https://creativecommons.org/licenses/by/3.0/us/"
+        }
+    ],
+    "dependencies": {
+        "highcharts": "4.0.4"
+    },
+    "description": "Improves on the built-in errorbars.  Adds support for x-axis.  X and Y errorbars can be added as a single series or independently.",
+    "keywords": [
+        "error",
+        "errorbar",
+        "errorbars"
+    ],
+    "demo": [
+        "http://jsfiddle.net/v8tLchrr/1/",
+        "http://jsfiddle.net/v8tLchrr/2/",
+        "http://jsfiddle.net/v8tLchrr/3/",
+        "http://jsfiddle.net/v8tLchrr/4/"
+    ]
+},{
+    "name": "contour",
+    "version": "1.1.5",
+    "title": "Contour Curves",
+    "author": {
+        "name": "Paulo Costa",
+        "url": "https://github.com/paulo-raca/highcharts-contour/"
+    },
+    "licenses": [{
+        "type": "WTFPL 鈥� Do What the Fuck You Want to Public License",
+        "url": "http://www.wtfpl.net/"
+    }],
+    "dependencies": {
+        "highcharts": "4.0.4",
+        "highcharts-heatmap": "4.0.4",
+        "delaunay": "1.0.0"
+    },
+    "description": "Displays contour curves from sampled data. You can think of it as a 'smoothed heatmap'",
+    "keywords": [
+        "heatmap",
+        "contour"
+    ],
+    "demo": [
+        "http://jsfiddle.net/nsj5uzdw/",
+        "http://jsfiddle.net/1peapgLw/",
+        "http://jsfiddle.net/y80jchon/",
+        "http://jsfiddle.net/f7ofc3q3/",
+        "http://jsfiddle.net/mqxmraL2/"
+    ]
+}, {
+	"title":"Highcharts 瀹㈡埛绔鍑烘彃浠�",
+	"date": "2015-07-20",
+	"chinese": "瀹炵幇鐩存帴鍦ㄦ祻瑙堝櫒绔鍑� highcharts 鍥捐〃",
+	"codes":[
+		"http://code.hcharts.cn/hcharts.cn/hhhGyj/"
+	],
+    "name": "highcharts-export-clientside",
+    "version": "1.1.2",
+    "title": "Highcharts Client-Side Export Module",
+    "author": {
+        "name": "A----",
+        "url": "https://github.com/A----/"
+    },
+    "licenses": [{
+        "type": "Public Domain",
+        "url": "http://unlicense.org"
+    }],
+    "dependencies": {
+        "highcharts": "4.x.x",
+        "jspdf": "1.x.x",
+        "export-csv-xls": "1.3.x"
+    },
+    "description": "Module for Highcharts to export charts client-side",
+    "keywords": [
+        "highcharts",
+        "export",
+        "charts",
+        "jpeg",
+        "jpg",
+        "png",
+        "pdf",
+        "svg",
+        "csv",
+        "xls"
+    ],
+    "homepage": "http://a----.github.io/highcharts-export-clientside/",
+    "docs": "http://a----.github.io/highcharts-export-clientside/",
+    "bugs": "https://github.com/A----/highcharts-export-clientside/issues",
+    "download": "https://github.com/A----/highcharts-export-clientside/archive/1.0.0.zip",
+    "demo": [
+        "http://jsfiddle.net/pscjzhe4/1/"
+    ],
+    "maintainers": [{
+        "name": "A----",
+        "email": "A----@users.noreply.github.com",
+        "url": "https://github.com/A----/"
+    }]
+}, {
+    "name": "Export-CSV-XLS",
+    "version": "1.3.5",
+    "title": "Export Chart Data To CSV or XLS",
+    "demo": [
+        "http://jsfiddle.net/highcharts/cqjvD/",
+        "http://jsfiddle.net/highcharts/2Jyn5/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "maintainers": [{
+        "name": "Torgrim Thorsen",
+        "url": "https://github.com/SirAlexiner",
+        "email": "Sir_Alexiner@hotmail.com"
+    }],
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/export-csv/blob/master/LICENSE"
+    }],
+    "description": "Highcharts plugin to export the chart data to CSV, XLS or HTML table. Two methods, getCSV and getTable, are added to the chart object for programmatic access, and menu items is added to the export menu for GUI access. A boolean variable, useLocalDecimalPoint, is added to the methods getCSV and getTable for choosing whether to use the local decimal point or not.",
+    "keywords": [
+        "export",
+        "csv",
+        "xls"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Custom-Events",
+    "version": "1.1.1",
+    "title": "Custom-Events",
+    "author": {
+        "name": "Black Label",
+        "url": "http://www.blacklabel.pl/"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://github.com/blacklabel/custom_events/blob/master/license.txt"
+    }],
+    "dependencies": {
+        "highcharts": "3.0.7"
+    },
+    "demo": [
+        "http://jsfiddle.net/BlackLabel/Utx8g/"
+    ],
+    "description": "Plugin that allows add extra events, like double / right click on each chart element, for Highcharts.",
+    "keywords": [
+        "events"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "homepage": "http://blacklabel.github.io/custom_events/",
+    "docs": "https://github.com/blacklabel/custom_events/",
+    "bugs": "https://github.com/blacklabel/custom_events/issues",
+    "download": "https://github.com/blacklabel/custom_events/archive/master.zip"
+}, {
+    "name": "Indicators",
+    "version": "2.0.4",
+    "title": "Indicators",
+    "author": {
+        "name": "Black Label",
+        "url": "http://www.blacklabel.pl/"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://github.com/blacklabel/indicators/blob/master/license.txt"
+    }],
+    "dependencies": {
+        "highstock": "2.1.5+"
+    },
+    "demo": [
+        "http://jsfiddle.net/BlackLabel/RE7sS/"
+    ],
+    "description": "Plugin that allows add indicators (SMA, EMA, RSI, ATR) for Highstock.",
+    "keywords": [
+        "indicators",
+        "sma",
+        "ema",
+        "atr",
+        "rsi"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "homepage": "http://blacklabel.github.io/indicators/",
+    "docs": "https://github.com/blacklabel/indicators/",
+    "bugs": "https://github.com/blacklabel/indicators/issues",
+    "download": "https://github.com/blacklabel/indicators/archive/master.zip"
+}, {
+    "name": "Draggable Points",
+    "version": "1.2.0",
+    "title": "Highcharts Draggable Points",
+    "demo": [
+        "http://jsfiddle.net/highcharts/AyUbx/",
+        "http://jsfiddle.net/highcharts/sk3m3o7d/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/draggable-points/blob/master/LICENSE"
+    }],
+    "description": "This plugin allows the user to drag the points in the chart, making them able to edit data directly in the chart.",
+    "keywords": [
+        "draggable"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian2@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Dynamic Weighted Average plugin",
+    "version": "1.2.1",
+    "title": "Dynamic Weighted Average",
+    "author": {
+        "name": "Ga毛l Le Mo毛llic",
+        "url": "https://github.com/gaellm/highcharts-dwa-plugin.git"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://raw.githubusercontent.com/gaellm/highcharts-dwa-plugin/master/license.txt"
+    }],
+    "dependencies": {
+        "highcharts": "4.0.4",
+        "jquery": "1.11.0"
+    },
+    "description": "Add a weighted average graph on the chart, dynamically calculated following displayed series.",
+    "keywords": [
+        "average",
+        "weight"
+    ],
+    "homepage": "https://github.com/gaellm/highcharts-dwa-plugin.git",
+    "docs": "https://github.com/gaellm/highcharts-dwa-plugin.git",
+    "bugs": "https://github.com/gaellm/highcharts-dwa-plugin.git",
+    "download": "https://github.com/gaellm/highcharts-dwa-plugin.git",
+    "demo": [
+        "http://jsfiddle.net/gaellm/pw4fwdjm/"
+    ],
+    "maintainers": [{
+        "name": "Ga毛l Le Mo毛llic",
+        "email": "gael.lm@gmail.com",
+        "url": "https://github.com/gaellm"
+    }]
+}, {
+    "name": "Grouped-Categories",
+    "version": "1.0.8",
+    "title": "Grouped Categories",
+    "author": {
+        "name": "Black Label",
+        "url": "http://www.blacklabel.pl/"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://github.com/blacklabel/grouped_categories/blob/master/license.txt"
+    }],
+    "dependencies": {
+        "highcharts": "2.3.5"
+    },
+    "demo": [
+        "http://jsfiddle.net/BlackLabel/TFhd7/"
+    ],
+    "description": "Plugin that allows grouped categories for Highcharts.",
+    "keywords": [
+        "categories",
+        "grouping"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "homepage": "http://blacklabel.github.io/grouped_categories/",
+    "docs": "https://github.com/blacklabel/grouped_categories/",
+    "bugs": "https://github.com/blacklabel/grouped_categories/issues",
+    "download": "https://github.com/blacklabel/grouped_categories/archive/master.zip"
+}, {
+    "name": "nearest-marker",
+    "version": "1.0.0",
+    "title": "Nearest Marker Tooltips",
+    "author": {
+        "name": "Paulo Costa",
+        "url": "https://github.com/paulo-raca/highcharts-nearest-marker/"
+    },
+    "licenses": [{
+        "type": "WTFPL 鈥� Do What the Fuck You Want to Public License",
+        "url": "http://www.wtfpl.net/"
+    }],
+    "dependencies": {
+        "highcharts": "4.0.4"
+    },
+    "description": "This plugin uses a tree structure to select the nearest marker and display it's tooltips, instead of relying on the marker's SVG shapes.\nThis code comes from Extended Heatmap Demo, with minor modifications: http://www.highcharts.com/demo/heatmap-canvas",
+    "keywords": [
+        "kdtree",
+        "tooltip",
+        "nearest"
+    ],
+    "demo": [
+        "http://jsfiddle.net/w7ga0rbs/"
+    ]
+}, {
+    "name": "Annotations",
+    "version": "1.2.6",
+    "title": "Annotations",
+    "author": {
+        "name": "Black Label",
+        "url": "http://www.blacklabel.pl/"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://github.com/blacklabel/annotations/blob/master/license.txt"
+    }],
+    "dependencies": {
+        "highcharts": "3.0.7+"
+    },
+    "demo": [
+        "http://jsfiddle.net/BlackLabel/7m3Mr/",
+        "http://jsfiddle.net/BlackLabel/N6GR9/"
+    ],
+    "description": "Plugin that add annotations to Highcharts library. Advanced demo is available on the github: http://blacklabel.github.io/annotations/",
+    "keywords": [
+        "annotations"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian2@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "homepage": "http://blacklabel.github.io/annotations/",
+    "docs": "https://github.com/blacklabel/annotations/",
+    "bugs": "https://github.com/blacklabel/annotations/issues",
+    "download": "https://github.com/blacklabel/annotations/archive/master.zip"
+}, {
+    "name": "Multicolor series",
+    "version": "1.1.1",
+    "title": "Multicolor",
+    "author": {
+        "name": "Black Label",
+        "url": "http://www.blacklabel.pl/"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://github.com/blacklabel/multicolor_series/blob/master/license.txt"
+    }],
+    "dependencies": {
+        "highcharts": "4.0.0"
+    },
+    "demo": [
+        "http://jsfiddle.net/BlackLabel/av87r7uo/",
+        "http://jsfiddle.net/BlackLabel/tg58gc6x/"
+    ],
+    "description": "Plugin that allows define different color for each part of path between points.",
+    "keywords": [
+        "series",
+        "multicolor"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "homepage": "http://blacklabel.github.io/multicolor_series/",
+    "docs": "https://github.com/blacklabel/multicolor_series/",
+    "bugs": "https://github.com/blacklabel/multicolor_series/issues",
+    "download": "https://github.com/blacklabel/multicolor_series/archive/master.zip"
+}, {
+    "name": "Bubble-Dragndrop",
+    "version": "1.0.7",
+    "title": "Bubble-Dragndrop",
+    "author": {
+        "name": "Black Label",
+        "url": "http://www.blacklabel.pl/"
+    },
+    "licenses": [{
+        "type": "Creative Commons Attribution (CC)",
+        "url": "https://github.com/blacklabel/bubble_dragndrop/blob/master/license.txt"
+    }],
+    "dependencies": {
+        "highcharts": "2.3.5"
+    },
+    "demo": [
+        "http://jsfiddle.net/BlackLabel/BHGk6/"
+    ],
+    "description": "Plugin that allows drag and drop bubbles for Highcharts. The newest version is published as \"draggable points\" http://www.highcharts.com/plugin-registry/single/3/Draggable-Points, because this module will not be developed in the future.",
+    "keywords": [
+        "bubble",
+        "dragndrop"
+    ],
+    "maintainers": [{
+        "name": "Sebastian Bochan",
+        "email": "sebastian2@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }, {
+        "name": "Pawe艂 Fus",
+        "email": "pawel@blacklabel.pl",
+        "url": "http://www.blacklabel.pl"
+    }],
+    "homepage": "http://blacklabel.github.io/bubble_dragndrop/",
+    "docs": "https://github.com/blacklabel/bubble_dragndrop/",
+    "bugs": "https://github.com/blacklabel/bubble_dragndrop/issues",
+    "download": "https://github.com/blacklabel/bubble_dragndrop/archive/master.zip"
+}, {
+    "name": "Rounded-Corners",
+    "version": "1.0.3",
+    "title": "Highcharts Individual Rounded Corners",
+    "demo": [
+        "http://jsfiddle.net/highcharts/2TuCW/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/rounded-corners/blob/master/LICENSE"
+    }],
+    "description": "This plugin allows individually rounded corners in columns and bars. Improves the looks on stacked charts and allows better alignment to the threshold line.",
+    "keywords": [
+        "corners"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Adapt-Chart-To-Legend",
+    "version": "1.0.2",
+    "title": "Adapt Chart Height To Legend Height",
+    "demo": [
+        "http://jsfiddle.net/highcharts/haB8y/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/adapt-chart-to-legend/blob/master/LICENSE"
+    }],
+    "description": "This plugin adjust the height according to the legend height.",
+    "keywords": [
+        "adapt",
+        "height",
+        "legend",
+        "chart"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Pattern-Fill",
+    "version": "2.0.1",
+    "title": "Pattern Fill",
+    "demo": [
+        "http://jsfiddle.net/highcharts/ErU8H/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/pattern-fill/blob/master/LICENSE"
+    }],
+    "description": "Highcharts pattern fill plugin for Highcharts 4. For Highcharts 3.x, the pattern fill version 1.0.x was used.",
+    "keywords": [
+        "pattern",
+        "ui"
+    ],
+    "dependencies": {
+        "Highcharts": ">=4.0.0"
+    }
+}, {
+    "name": "Highcharts regression",
+    "version": "1.0.5",
+    "title": "Highcharts regression - Linear and non-linear regression for highcharts",
+    "author": {
+        "name": "Ignacio Vazquez",
+        "url": "https://github.com/phpepe/"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "dependencies": {
+        "highcharts": "3.0.0"
+    },
+    "description": "This allows you to add regression lines to any series. Supports: linear, polynomial, logarithmic, exponential and loess. Calculates the r-value",
+    "keywords": [
+        "highcharts",
+        "regression",
+        "trendline",
+        "loess fitline"
+    ],
+    "homepage": "https://github.com/phpepe/highcharts-regression",
+    "docs": "",
+    "bugs": "https://github.com/phpepe/highcharts-regression/issues",
+    "download": "https://github.com/phpepe/highcharts-regression/archive/master.zip",
+    "demo": [
+        "http://jsfiddle.net/phpepe/3vruC/",
+        "http://jsfiddle.net/phpepe/sMJv9/",
+        "http://jsfiddle.net/phpepe/72tBr/"
+    ],
+    "maintainers": [{
+        "name": "Ignacio Vazquez",
+        "email": "elpepe.uy@gmail.com",
+        "url": "https://github.com/phpepe/"
+    }]
+}, {
+    "name": "draggable-legend-box",
+    "version": "1.0.0",
+    "title": "Highcharts Draggable Legend Box",
+    "demo": [
+        "http://jsfiddle.net/bA6UM/83/"
+    ],
+    "author": {
+        "name": "Masih",
+        "url": "https://github.com/masih"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/draggable-legend/blob/master/LICENSE"
+    }],
+    "description": "Lets the user drag the legend box around in a chart",
+    "keywords": [
+        "draggable",
+        "legend"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "highcharts-show-last-points",
+    "version": "0.2.1",
+    "title": "Show last points as a column near y-Axis",
+    "author": {
+        "name": "Milton Mazzarri",
+        "url": "http://milmazz.com.ve"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/milmazz/highcharts-show-last-points/blob/master/LICENSE"
+    }],
+    "dependencies": {
+        "highcharts": ">=3.0.0"
+    },
+    "description": "This plugin allows the user to see the last points as a column near y-Axis area",
+    "keywords": [
+        "addPoint"
+    ],
+    "homepage": "https://github.com/milmazz/highcharts-show-last-points",
+    "docs": "https://github.com/milmazz/highcharts-show-last-points",
+    "bugs": "https://github.com/milmazz/highcharts-show-last-points/issues/",
+    "download": "https://github.com/milmazz/highcharts-show-last-points/archive/master.zip",
+    "demo": [
+        "http://jsfiddle.net/milmazz/cpKwL/"
+    ]
+}, {
+    "name": "deferred-datalabels-rendering",
+    "version": "1.0.1",
+    "title": "deferred datalabels rendering",
+    "demo": [
+        "http://jsfiddle.net/g5TT6/"
+    ],
+    "author": {
+        "name": "Pavlos Polianidis",
+        "url": "https://github.com/ppoliani"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/ppoliani/deferred-datalabel-rendering/blob/master/LICENSE"
+    }],
+    "description": "This feature delays the rendergin of datalabels for after the chart is completely rendered",
+    "keywords": [
+        "datalabels",
+        "rendering"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "xAxis-Zero-Crossing",
+    "version": "1.0.1",
+    "title": "xAxis Crossing At value 0",
+    "demo": [
+        "http://jsfiddle.net/cBr88/3/"
+    ],
+    "author": {
+        "name": "Pavlos Polianidis",
+        "url": "https://github.com/ppoliani"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/crossing-specific-value/blob/master/LICENSE"
+    }],
+    "description": "This feature lets you set the xAxis to cross the zero value. This is usefull when having column charts with negative values",
+    "keywords": [
+        "crossing",
+        "axis"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "\"Oxymoronic\" Candlesticks",
+    "version": "1.0.2",
+    "title": "Highstock \"Oxymoronic\" Candlesticks",
+    "demo": [
+        "http://jsfiddle.net/RolandBanguiran/DW7Md/"
+    ],
+    "author": {
+        "name": "Roland Banguiran",
+        "url": "http://sg.linkedin.com/in/rolandbanguiran"
+    },
+    "licenses": [{
+        "type": "GPL v2",
+        "url": "https://github.com/RolandBanguiran/highstock-oxymoronic-candlesticks/blob/master/LICENSE"
+    }],
+    "description": "Using this plugin will enable \"Oxymoronic\" candlesticks. Candles that are colored bullishly, but filled bearishly (i.e., a filled, green candle) or vice versa (i.e., a hollow red candle).",
+    "keywords": [
+        "oxymoronic",
+        "candlestick"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Current Price Indicator",
+    "version": "1.0.2",
+    "title": "Highstocks Current Price Indicator",
+    "demo": [
+        "http://jsfiddle.net/RolandBanguiran/nf7ne/"
+    ],
+    "author": {
+        "name": "Roland Banguiran",
+        "url": "http://sg.linkedin.com/in/rolandbanguiran"
+    },
+    "licenses": [{
+        "type": "GPL v2",
+        "url": "https://github.com/RolandBanguiran/highstock-current-price-indicator/blob/master/LICENSE"
+    }],
+    "description": "Using this plugin will display current price indicator in Highstock.",
+    "keywords": [
+        "price",
+        "indicator",
+        "yAxis"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Scalable Y-Axis",
+    "version": "1.2.3",
+    "title": "Highcharts Scalable Y-Axis",
+    "demo": [
+        "http://jsfiddle.net/RolandBanguiran/zJA93/",
+        "http://jsfiddle.net/RolandBanguiran/8L2Nb/"
+    ],
+    "author": {
+        "name": "Roland Banguiran",
+        "url": "http://sg.linkedin.com/in/rolandbanguiran"
+    },
+    "licenses": [{
+        "type": "GPL v2",
+        "url": "https://github.com/RolandBanguiran/highcharts-scalable-yaxis/blob/master/LICENSE"
+    }],
+    "description": "Using this plugin lets the user manually adjust Y-Axis range by dragging the labels. Double click to go back to default range.",
+    "keywords": [
+        "yAxis",
+        "scalable"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Y-Axis Panning",
+    "version": "1.0.2",
+    "title": "Highstock Y-Axis Panning",
+    "demo": [
+        "http://jsfiddle.net/RolandBanguiran/8EmeV/"
+    ],
+    "author": {
+        "name": "Roland Banguiran",
+        "url": "http://sg.linkedin.com/in/rolandbanguiran"
+    },
+    "licenses": [{
+        "type": "GPL v2",
+        "url": "https://github.com/RolandBanguiran/highstock-yaxis-panning/blob/master/LICENSE"
+    }],
+    "description": "Using this plugin will enable Y-Axis panning.",
+    "keywords": [
+        "yAxis",
+        "panning"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Zoom Out Selection",
+    "version": "1.0.1",
+    "title": "Highstock Zoom Out Selection",
+    "demo": [
+        "http://jsfiddle.net/RolandBanguiran/JH9YX/"
+    ],
+    "author": {
+        "name": "Roland Banguiran",
+        "url": "http://sg.linkedin.com/in/rolandbanguiran"
+    },
+    "licenses": [{
+        "type": "GPL v2",
+        "url": "https://github.com/RolandBanguiran/highstock-zoom-out-selection/blob/master/LICENSE"
+    }],
+    "description": "Using this plugin lets the user zoom out X-Axis by dragging from right to left.",
+    "keywords": [
+        "xAxis",
+        "selection",
+        "zoom"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "highcharts-legend-yaxis",
+    "version": "0.2.1",
+    "title": "Show legend boxes bellow yAxis",
+    "author": {
+        "name": "Milton Mazzarri",
+        "url": "http://milmazz.com.ve"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/milmazz/highcharts-legend-yaxis/blob/master/LICENSE"
+    }],
+    "dependencies": {
+        "highcharts": ">=3.0.0"
+    },
+    "description": "This plugin allows the user to see the legend boxes (rects) bellow the yAxis area",
+    "keywords": [
+        "legend",
+        "yaxis"
+    ],
+    "homepage": "https://github.com/milmazz/highcharts-legend-yaxis",
+    "docs": "https://github.com/milmazz/highcharts-legend-yaxis",
+    "bugs": "https://github.com/milmazz/highcharts-legend-yaxis/issues/",
+    "download": "https://github.com/milmazz/highcharts-legend-yaxis/archive/master.zip",
+    "demo": [
+        "http://jsfiddle.net/milmazz/LH6kC/"
+    ]
+}, {
+    "name": "Highcharts Localization",
+    "version": "1.1.1",
+    "title": "Highcharts Localization",
+    "author": {
+        "name": "Milad Jafary",
+        "url": "https://github.com/miladjafary"
+    },
+    "licenses": [{
+        "type": "GPLv3",
+        "url": "https://github.com/miladjafary/highcharts-plugins/blob/master/LICENSE"
+    }],
+    "dependencies": {
+        "highcharts": ">=2.3.0"
+    },
+    "description": "Localization Highcharts date and number.",
+    "keywords": [
+        "localization",
+        "jalali date"
+    ],
+    "demo": [
+        "http://jsfiddle.net/KjsY2/"
+    ],
+    "maintainers": [{
+        "name": "Milad Jafary",
+        "email": "milad.jafary@gmail.com",
+        "url": "https://github.com/miladjafary/highcharts-plugins"
+    }]
+}, {
+    "name": "Tooltip delay before display",
+    "version": "1.1",
+    "title": "Tooltip delay before display",
+    "author": {
+        "name": "Jan Rudovsky",
+        "url": "http://rudovsky.blogspot.cz/"
+    },
+    "licenses": [{
+        "type": "GPL v2",
+        "url": "https://github.com/rudovjan/highcharts-tooltip-delay/blob/master/LICENSE"
+    }],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    },
+    "description": "Put defined delay before showing tooltip of point",
+    "keywords": [
+        "tooltip",
+        "delay"
+    ],
+    "homepage": "http://rudovjan.github.io/highcharts-tooltip-delay/",
+    "docs": "https://github.com/rudovjan/highcharts-tooltip-delay",
+    "bugs": "",
+    "download": "http://rudovjan.github.io/highcharts-tooltip-delay/",
+    "demo": [
+        "http://jsfiddle.net/rudovsky/pu3x5/"
+    ],
+    "maintainers": [{
+        "name": "Jan Rudovsky",
+        "email": "rudovsky@gmail.com",
+        "url": ""
+    }]
+}, {
+    "name": "Draggable-Legend",
+    "version": "1.0.2",
+    "title": "Highcharts Draggable Legend",
+    "demo": [
+        "http://jsfiddle.net/highcharts/4jZ7T/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/draggable-legend/blob/master/LICENSE"
+    }],
+    "description": "Using this plugin lets the user move the legend around in the chart.",
+    "keywords": [
+        "draggable",
+        "legend"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "technical-indicators",
+    "version": "1.0.3",
+    "title": "Technical Indicators",
+    "author": {
+        "name": "Olaf Berge",
+        "url": "www.ohlaugh.com"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/laff/technical-indicators/blob/master/LICENSE"
+    }],
+    "dependencies": {
+        "highcharts": ">=3.0.0"
+    },
+    "description": "Linear, SMA, EMA and MACD trendlines.",
+    "keywords": [
+        "trendline",
+        "SMA",
+        "EMA",
+        "linear",
+        "MACD",
+        "Moving Average"
+    ],
+    "docs": "https://github.com/laff/technical-indicators/blob/master/README.md",
+    "demo": [
+        "http://jsfiddle.net/laff/etW3K/",
+        "http://jsfiddle.net/laff/WaEBc/",
+        "http://jsfiddle.net/laff/U6HMA/",
+        "http://jsfiddle.net/laff/SRfW6/"
+    ],
+    "maintainers": [{
+        "name": "Olaf Berge",
+        "email": "ohlaughbrg@gmail.com"
+    }]
+}, {
+    "name": "Highcharts-Downsample",
+    "version": "0.1",
+    "title": "Highcharts Downsample",
+    "demo": [
+        "http://highcharts.base.is/",
+        "http://jsfiddle.net/sveinn_st/FMJAL/"
+    ],
+    "author": {
+        "name": "Sveinn Steinarsson",
+        "url": "https://github.com/sveinn-steinarsson/"
+    },
+    "licenses": [{
+        "type": "MIT"
+    }],
+    "description": "This plugin downsamples the data before rendering the chart. The purpose is to try retain the visual characteristics of the original line using considerably fewer data points.",
+    "keywords": [
+        "downsample",
+        "down-sample",
+        "sample",
+        "sampling",
+        "aggregate",
+        "decimation"
+    ],
+    "dependencies": {
+        "Highcharts": ">=2.3.0"
+    }
+}, {
+    "name": "Beyond-Extremes",
+    "version": "1.0.1",
+    "title": "Allow range inputs outside of data extremes",
+    "homepage": "https://github.com/d-nation/highstock-beyond-extremes",
+    "demo": [
+        "http://jsfiddle.net/dnation/eSS8T/"
+    ],
+    "author": {
+        "name": "Dustin Nation",
+        "url": "http://dustinnation.com/blog/"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/d-nation/highstock-beyond-extremes/blob/master/LICENSE"
+    }],
+    "description": "This feature allows the input range dates to be beyond the range of the current data in the chart. Assists in situations where the Highstock is being used as a controller to dynamically add data to the chart  Untested on versions earlier than 1.3.7",
+    "keywords": [
+        "input",
+        "rangeSelector"
+    ],
+    "dependencies": {
+        "Highstock": ">=1.3.7"
+    }
+}, {
+    "name": "Value-In-Legend",
+    "version": "1.0.1",
+    "title": "Show Value In Legend",
+    "demo": [
+        "http://jsfiddle.net/highcharts/DVvdZ/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/value-in-legend/blob/master/LICENSE"
+    }],
+    "description": "Highcharts plugin for displaying value information in the legend",
+    "keywords": [
+        "value",
+        "legend"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Trackball",
+    "version": "1.0.2",
+    "title": "Highcharts Trackball Extension",
+    "demo": [
+        "http://jsfiddle.net/highcharts/nhVbs/10/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "maintainers": [{
+        "name": "Jon Arild Nyg氓rd",
+        "email": "jon.arild@highsoft.com",
+        "url": "https://github.com/jon-a-nygaard"
+    }],
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/trackball/blob/master/License-(MIT).txt"
+    }],
+    "description": "A plugin for Highcharts, adding trackball/marker features to each series in the chart.",
+    "keywords": [
+        "trackball",
+        "marker"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}, {
+    "name": "Crossing-Specific-Values",
+    "version": "1.0.1",
+    "title": "Axis Crossing At Specific Value",
+    "demo": [
+        "http://jsfiddle.net/highcharts/jsCJF/"
+    ],
+    "author": {
+        "name": "Torstein H酶nsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/highslide-software/crossing-specific-value/blob/master/LICENSE"
+    }],
+    "description": "This feature lets you specify specific values where the axis should cross.",
+    "keywords": [
+        "crossing",
+        "axis"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}]
