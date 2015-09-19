@@ -1,108 +1,117 @@
 body {
-	background-color: #ececec;
+    background-color: #ececec;
 }
 
- a {
-	color: #006cee;
-	font-weight: bold;
+a {
+    color: #006cee;
+    font-weight: bold;
 }
 
 #plugins-list .container {
-	background-color: #fff;
-	margin: 40px auto;
-	padding: 40px 80px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 40px 80px;
 }
 
 .plugins-header {
-	text-align: center;
-	border-bottom: 1px solid #aaa;
-	padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 20px;
 }
 
 .plugins-header h1 {
-	font-size: 30px;
-	line-height: 2;
+    font-size: 30px;
+    line-height: 2;
 }
 
 .plugins-header nav ul {
-	padding-left: 0;
-	margin-bottom: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
 }
 
 .plugins-header nav li {
-	display: inline-block;
-	margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 .plugins-search {
-	width: 50%;
-	border:1px solid #006cee;
-	padding: 6px  10px;
+    width: 50%;
+    border: 1px solid #006cee;
+    padding: 6px 10px;
 }
 
 .plugins-search:focus {
-	outline: none;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
 .plugins-search-btn {
-	border-radius: 0;
-	margin: -2px 0 0 -4px;
-	background-color: #006cee;
-	border-color: #006cee;
-	padding: 6px 20px;
-	font-size: 14px;
+    border-radius: 0;
+    margin: -2px 0 0 -4px;
+    background-color: #006cee;
+    border-color: #006cee;
+    padding: 6px 20px;
+    font-size: 14px;
 }
 
 .plugins-msg {
-	margin-top: 20px;
-	/*float: left;*/
+    margin-top: 20px;
+    /*float: left;*/
 }
 
 .plugins-page {
-	margin-top: 30px;
-	text-align: center;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .plugins-page ul {
-	padding-left: 0;
+    padding-left: 0;
 }
 
 .plugins-page li {
-	display: inline-block;
-	background-color: #ccc;
-	padding: 4px 10px;
-	cursor: pointer;
-	border-radius: 3px;
-	font-size: 12px;
-	margin: 0 6px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 0 3px #ccc;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 0 6px;
 }
 
 .plugins-page li.active {
-	background-color: #006cee;
-	color: #fff;
+    background-color: #006cee;
+    color: #fff;
 }
-
 
 .plugin {
-	border-bottom: 1px solid #aaa;
-	padding: 30px 0;
+    border-bottom: 1px solid #aaa;
+    padding: 30px 0;
 }
 
-
-
 .plugin p {
-	margin-bottom: 0;
-	line-height: 24px;
+    margin-bottom: 0;
+    line-height: 24px;
 }
 
 .plugin-title {
-	margin-top: 0;
-	font-size: 18px;
+    margin-top: 0;
+    font-size: 18px;
 }
 
-
 footer {
-	text-align: center;
-	margin: 20px auto;
+    text-align: center;
+    margin: 20px auto;
+}
+
+footer a {
+	color: inherit;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #006cee;
+	border-bottom: 1px solid #006cee;
 }
