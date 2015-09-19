@@ -13,6 +13,9 @@ a {
     padding: 40px 80px;
 }
 
+/**
+ * Plugin header
+ */
 .plugins-header {
     text-align: center;
     border-bottom: 1px solid #aaa;
@@ -34,6 +37,11 @@ a {
     margin: 0 10px;
 }
 
+
+/**
+ * plugin search
+ *
+ */
 .plugins-search {
     width: 50%;
     border: 1px solid #006cee;
@@ -59,6 +67,9 @@ a {
     /*float: left;*/
 }
 
+/**
+ * plugin page
+ */
 .plugins-page {
     margin-top: 30px;
     text-align: center;
@@ -84,6 +95,11 @@ a {
     color: #fff;
 }
 
+
+/**
+ * plugin list
+ *
+ */
 .plugin {
     border-bottom: 1px solid #aaa;
     padding: 30px 0;
@@ -99,6 +115,11 @@ a {
     font-size: 18px;
 }
 
+
+
+/**
+ *footer
+ */
 footer {
     text-align: center;
     margin: 20px auto;
