@@ -56,14 +56,16 @@ Vue.filter('searchFilter', function(value, search) {
             // 字符串匹配，这里用 indexOf 无法做到大小写同时匹配
             if (v.name.indexOf(search) !== -1 || v.description.indexOf(search) !== -1 || v.author.name.indexOf(search) !== -1) {
                 newValue.push(v);
+                return;
             } else {
                 // 处理 keyword
                 var fined = _.find(v.keywords, function(k) {
-                    return k.indexOf(search) !== -1
+                    return k.indexOf(search) !== -1;
                 });
 
                 if (fined) {
                     newValue.push(v);
+                    return;
                 }
             }
         });

@@ -49,11 +49,11 @@ $.getJSON('manifest.json', function(data) {
     }
 
     if (!plugin.bugs) {
-        plugin.bugs = plugin.author.url + "/issues"
+        plugin.bugs = plugin.author.url + "/issues";
     }
 
     if (!plugin.docs) {
-        plugin.docs = plugin.author.url + "/docs"
+        plugin.docs = plugin.author.url + "/docs";
     }
 
     if (!plugin.download) {
