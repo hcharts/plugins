@@ -62,7 +62,7 @@ Vue.filter('searchFilter', function(value, search) {
                     return k.indexOf(search) !== -1
                 });
                 if (fined) {
-                    newValue.pageValue(fined);
+                    newValue.push(fined);
                 }
             }
         });
