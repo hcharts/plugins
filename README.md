@@ -1,6 +1,6 @@
 # Highcharts 插件列表
 
-Highcharts 插件列表集合页面，基于 jQuery、Bootstrap、Underscore、Vue 创建
+Highcharts 插件列表集合页面，基于 jQuery、Bootstrap、Underscore、Vue、Bower 创建
 
 
 ![Snip20150919_9.png](Snip20150919_9.png)

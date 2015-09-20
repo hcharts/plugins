@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section id="mainfest">
+        <div class="container white-container">
+            <a href="index.html">《返回插件列表</a>
+            <article>
+                <h1>Create your own plugin</h1>
+                <p>
+                    As you can see under <a href="http://www.highcharts.com/plugin-registry/editors">Editor's Pick</a>, Highcharts can be extended in a number of ways. The best plugins are flexible and reusable, and you can make your own by following <a href="http://www.highcharts.com/docs/extending-highcharts">Extending Highcharts</a>.
+                </p>
+                <h2>Publish your plugin</h2>
+                <h3>Create repository on GitHub</h3>
+                <p>
+                    This repository will contain all materials that is crucial or you find necessary that people should have. If you are new on GitHub, or have forgotten some of the basics, please have a look at their manual for <a href="https://help.github.com/articles/create-a-repo">Create a Repo</a>.
+                </p>
+                <h3>Add a Webhook</h3>
+                <p>
+                    The link to receive the post is: <a href="http://www.highcharts.com/plugin-registry/hook">http://www.highcharts.com/plugin-registry/hook</a>. To add webhooks to a GitHub repository, follow their manual on <a href="https://developer.github.com/webhooks/creating/">Creating Webhooks</a>.
+                    <br>
+                    <strong>Important</strong>, set Content Type to: <code>application/x-www-form-urlencoded</code>.
+                </p>
+                <h3>Add a manifest to the repository</h3>
+                <p>
+                    Create a new file named manifest.json. Make sure the file ending is .json and not .txt. The file must contain som required information and maybe some of the optional fields is relevant. It is crucial that this file contains valid json syntax. To check this you can use <a href="http://jsonlint.com/">JSONLint</a>. In the table you can information of all the possible attributes and a short description of their use. Some of these are marked as required, without these attributes the registry process will discard your plugin.
+                </p>
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Required</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td class="centered"><i class="glyphicon glyphicon-ok"></i></td>
+                            <td>Give your plugin a name. Must be a unique, and preferably a short one.</td>
+                        </tr>
+                        <tr>
+                            <td>Version</td>
+                            <td class="centered"><i class="glyphicon glyphicon-ok"></i></td>
+                            <td>Version number of the plugin. Should be updated when there is changes made to the plugin or the manifest.</td>
+                        </tr>
+                        <tr>
+                            <td>Title</td>
+                            <td class="centered"><i class="glyphicon glyphicon-ok"></i></td>
+                            <td>Describing title. This will be the head title on your plugins page.</td>
+                        </tr>
+                        <tr>
+                            <td>Author</td>
+                            <td class="centered"><i class="glyphicon glyphicon-ok"></i></td>
+                            <td>Specify the author. Let us know who created the plugin.</td>
+                        </tr>
+                        <tr>
+                            <td>Licenses</td>
+                            <td class="centered"><i class="glyphicon glyphicon-ok"></i></td>
+                            <td>Describe what license your plugin is distributed under.</td>
+                        </tr>
+                        <tr>
+                            <td>Dependencies</td>
+                            <td class="centered"><i class="glyphicon glyphicon-ok"></i></td>
+                            <td>Which frameworks and version of it, is this functionality depending on</td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td class="centered"></td>
+                            <td>Please tell us a bit about what your plugin does.</td>
+                        </tr>
+                        <tr>
+                            <td>Keywords</td>
+                            <td class="centered"></td>
+                            <td>Add some keywords. Later your plugins can be filtered by these.</td>
+                        </tr>
+                        <tr>
+                            <td>Homepage</td>
+                            <td class="centered"></td>
+                            <td>Optional homepage link. If this is not added the url for the Github repository will be used.</td>
+                        </tr>
+                        <tr>
+                            <td>Docs</td>
+                            <td class="centered"></td>
+                            <td>Optional documentation link, default is set to Github repository frontpage.</td>
+                        </tr>
+                        <tr>
+                            <td>Bugs</td>
+                            <td class="centered"></td>
+                            <td>Optional bug link, default is set to Github issues.</td>
+                        </tr>
+                        <tr>
+                            <td>Downloads</td>
+                            <td class="centered"></td>
+                            <td>If you want people to download the plugin from an other site then GitHub, then you can specify an url with this attribute</td>
+                        </tr>
+                        <tr>
+                            <td>Demo</td>
+                            <td class="centered"></td>
+                            <td>Include an url to show an example of the functionality. If this links to a jsfiddle it will be embedded on the page.</td>
+                        </tr>
+                        <tr>
+                            <td>Maintainers</td>
+                            <td class="centered"></td>
+                            <td>Here you can specify an array of maintainers for the plugin</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4>Structure</h4>
+                <p>
+                    This is an example of the structure in manifest.json. You can very well copy paste this text and fill in the information in the fields. The fields that are not required and you find unecessary can be removed. Just make sure that the json is valid at the end.
+                </p>
+                <pre>{
+    "name": "",
+    "version": "",
+    "title": "",
+    "author": {
+        "name": "",
+        "url": ""
+    },
+    "licenses": [
+        {
+            "type": "",
+            "url": ""
+        }
+    ],
+    "dependencies": {
+        "highcharts": ""
+    },
+    "description": "",
+    "keywords": [
+        "",
+        ""
+    ],
+    "homepage": "",
+    "docs": "",
+    "bugs": "",
+    "download": "",
+    "demo": [
+        "",
+        ""
+    ],
+    "maintainers": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ]
+}
+</pre>
+                <h3>And finally the publishing</h3>
+                <p>
+                    When all the necessities above are done, just make a push on your repository. If the registering of your plugin is a first, make sure that the name is not taken, else the plugin will not be registered and you will be notified by email. When updating a plugin you have to make sure that the version is newer then the already registered plugin. The publishing should not take long and you should get notified by email. If nothing has happened and there is no notifications in your inbox, please check that your manifest file is valid json.
+                </p>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>基于 jQuery、Bootstrap、Underscore、Vue、Bower 构建，代码托管于 <a href="https://github.com/hcharts/plugins" target="_blank">https://github.com/hcharts/plugins</a></p>
+            <p>Copyright &copy; 2015 <a href="http://www.hcharts.cn" target="_blank">HCharts.cn</a> by <a href="http://www.52wulian.cn" target="_blank">John</a></p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="bower_components/vue/dist/vue.min.js"></script>
+    <script type="text/javascript" src="js/manifest.js"></script>
+</body>
+
+</html>

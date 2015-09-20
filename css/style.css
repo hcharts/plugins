@@ -7,18 +7,20 @@ a {
     font-weight: bold;
 }
 
-#plugins-list .container {
+.white-container {
     background-color: #fff;
     margin: 40px auto;
     padding: 40px 80px;
 }
 
+
 /**
  * Plugin header
  */
+
 .plugins-header {
     text-align: center;
-    border-bottom: 1px solid #aaa;
+    /*border-bottom: 1px solid #aaa;*/
     padding-bottom: 20px;
 }
 
@@ -42,6 +44,7 @@ a {
  * plugin search
  *
  */
+
 .plugins-search {
     width: 50%;
     border: 1px solid #006cee;
@@ -62,14 +65,20 @@ a {
     font-size: 14px;
 }
 
+.plugins-search-btn:hover {
+    background-color: #1A6CCE;
+    border-color: #1A6CCE;
+}
+
 .plugins-msg {
     margin-top: 20px;
-    /*float: left;*/
 }
+
 
 /**
  * plugin page
  */
+
 .plugins-page {
     margin-top: 30px;
     text-align: center;
@@ -100,6 +109,7 @@ a {
  * plugin list
  *
  */
+
 .plugin {
     border-bottom: 1px solid #aaa;
     padding: 30px 0;
@@ -116,23 +126,99 @@ a {
 }
 
 
+/**
+ * Single plugin  page
+ */
+
+
+
+.ul-line li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.plugin-infomation {
+    padding: 0 20px;
+}
+
+
+/**
+ * manifest
+ */
+
+#mainfest input {
+	width: 80%;
+}
+
+#mainfest textarea {
+	width: 80%;
+	min-height: 200px;
+}
+
+
+/**
+ * Article
+ */
+
+article h1 {
+    font-size: 30px;
+    line-height: 2;
+    text-align: center;
+}
+
+article h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+article h4 {
+    font-size: 16px;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+article input[type='text'] {
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+}
+
+article input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #006cee;
+}
+
+article textarea {
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+    display: block;
+}
+
+article textarea:focus {
+    outline: none;
+    border: 1px solid #006cee;
+}
+
 
 /**
  *footer
  */
+
 footer {
     text-align: center;
     margin: 20px auto;
 }
 
 footer a {
-	color: inherit;
-	font-weight: normal;
-	text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 footer a:hover {
-	text-decoration: none;
-	color: #006cee;
-	border-bottom: 1px solid #006cee;
+    text-decoration: none;
+    color: #006cee;
+    border-bottom: 1px solid #006cee;
 }

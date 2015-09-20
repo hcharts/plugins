@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section id="plugin">
+        <div class="container white-container">
+            <a href="index.html">《返回插件列表</a>
+            <div class="row plugins-header">
+                <h1>{{plugin.title}}</h1>
+                <nav>
+                    <ul>
+                        <li><a href="{{plugin.home}}" target="_blank">插件首页</a></li>
+                        <li><a href="{{plugin.bugs}}" target="_blank">Bug 反馈</a></li>
+                        <li><a href="{{plugin.docs}}" target="_blank">文档</a></li>
+                        <li><a href="{{plugin.download}}" target="_blank">下载</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <article>
+                <h3>插件信息</h3>
+                <div class="row plugin-infomation">
+                    <div class="col-lg-7">
+                        <p>由 <a href="{{plugin.author.url}}" target="_blank">{{plugin.author.name}}</a> 创建，提交与 {{plugin.date}}</p>
+                        <h4>例子：</h4>
+                        <ul>
+                            <li v-repeat="demo in plugin.demo"><a href="{{demo}}" target="_blak">{{demo}}</a></li>
+                        </ul>
+                        <h4>简介：</h4>
+                        <p>{{plugin.description}}</p>
+                        <h4>关键词</h4>
+                        <ul class="ul-line">
+                            <li v-repeat="keyword in plugin.keywords"><a href="index.html?s={{keyword}}" target="_blank">{{keyword}}</a></li>
+                        </ul>
+                        <h4>依赖</h4>
+                        <ul>
+                            <li v-repeat="de in plugin.dependencies">{{$key}} {{de}}</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul>
+                            <li>作者：<a href="{{plugin.author.url}}" target="_blank">{{plugin.author.name}}</a></li>
+                            <li>版本：{{plugin.version}}</li>
+                            <li>更新时间：{{plugin.date}}</li>
+                            <li>
+                                维护人员：<span v-text="plugin.maintainers===null ? '暂无' : ''"></span>
+                                <ul>
+                                    <li v-repeat="mainer in plugin.maintainers"><a href="{{mainer.url}}" target="_blank">{{mainer.name}}</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                授权模式：<span v-text="plugin.licenses===null ? '暂无' : ''"></span>
+                                <ul>
+                                    <li v-repeat="license in plugin.licenses">
+                                        <a href="{{license.url}}" target="_blank">{{license.type}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>在线实例</h3>
+                <iframe v-repeat="demo in plugin.demo" width="100%" height="550 " src="{{demo}}embedded/result,js,html,css/" frameborder="0"></iframe>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>基于 jQuery、Bootstrap、Underscore、Vue、Bower 构建，代码托管于 <a href="https://github.com/hcharts/plugins" target="_blank">https://github.com/hcharts/plugins</a></p>
+            <p>Copyright &copy; 2015 <a href="http://www.hcharts.cn" target="_blank">HCharts.cn</a> by <a href="http://www.52wulian.cn" target="_blank">John</a></p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="bower_components/vue/dist/vue.min.js"></script>
+    <script type="text/javascript" src="js/plugin.js"></script>
+</body>
+
+</html>

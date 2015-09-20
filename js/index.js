@@ -1,3 +1,15 @@
+/**
+ * 解析 URL 参数
+ * @param  {[type]} name [description]
+ * @return {[type]}      [description]
+ */
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r !== null) return unescape(r[2]);
+    return null;
+}
+
 var app = new Vue({
     el: '#plugins-list',
     data: {
@@ -8,9 +20,6 @@ var app = new Vue({
         pageNum: 1,
         totalPage: 0,
         pageSizeOptions: [{
-            value: 2,
-            text: '2'
-        }, {
             value: 5,
             text: '5'
         }, {
@@ -38,12 +47,13 @@ Vue.filter('searchFilter', function(value, search) {
     var newValue = [];
     var totalElements = app.plugins.length;
 
-    if (search === null | search === "") {
+    if (search === null || search === "") {
         app.msg = null;
         newValue = value;
     } else {
         // 根据搜索内容过滤
         _.each(value, function(v, i) {
+            // 字符串匹配，这里用 indexOf 无法做到大小写同时匹配
             if (v.name.indexOf(search) !== -1 || v.description.indexOf(search) !== -1 || v.author.name.indexOf(search) !== -1) {
                 newValue.push(v);
             }
@@ -61,10 +71,10 @@ Vue.filter('searchFilter', function(value, search) {
     }
 
     // 确定当前页内容
-    var pageVlue = [];
+    var pageValue = [];
     _.each(newValue, function(v, i) {
         if (i >= app.pageSize * (app.pageNum - 1) && i < app.pageSize * (app.pageNum)) {
-            pageVlue.push(v);
+            pageValue.push(v);
         }
     });
 
@@ -76,10 +86,15 @@ Vue.filter('searchFilter', function(value, search) {
         app.pageNum = app.totalPage;
     }
 
-    return pageVlue;
+    return pageValue;
 
 });
 
+var s = getQueryString('s');
+
+if(s!==null || s!=="") {
+    app.search = s;
+}
 
 // Get the data and set to app.plugins
 $.getJSON('manifest.json', function(data) {
