@@ -61,8 +61,9 @@ Vue.filter('searchFilter', function(value, search) {
                 var fined = _.find(v.keywords, function(k) {
                     return k.indexOf(search) !== -1
                 });
+
                 if (fined) {
-                    newValue.push(fined);
+                    newValue.push(v);
                 }
             }
         });
